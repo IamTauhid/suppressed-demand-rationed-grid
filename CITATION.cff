@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+title: >-
+  Replication package: Suppressed Electricity Demand in a Rationed Grid —
+  A Reporting Audit and Conditional Bounds. Evidence from Bangladesh
+message: >-
+  If you use this code or the derived results, please cite both the paper and the
+  underlying dataset.
+type: software
+authors:
+  - family-names: Islam
+    given-names: Md Tauhidul
+    email: tauhidsuman10@gmail.com
+  - family-names: Mohiuddin
+    given-names: Saifullah
+repository-code: >-
+  https://github.com/IamTauhid/suppressed-demand-rationed-grid
+license: MIT
+date-released: '2026-09-24'
+keywords:
+  - electricity demand
+  - load shedding
+  - unserved energy
+  - utility regulation
+  - partial identification
+  - value of lost load
+  - Bangladesh
+preferred-citation:
+  type: unpublished
+  title: >-
+    Suppressed Electricity Demand in a Rationed Grid: A Reporting Audit and
+    Conditional Bounds. Evidence from Bangladesh
+  authors:
+    - family-names: Islam
+      given-names: Md Tauhidul
+    - family-names: Mohiuddin
+      given-names: Saifullah
+  year: 2026
+  notes: Manuscript under review, Utilities Policy
+references:
+  - type: data
+    title: >-
+      Hourly Electricity Generation, Demand, Load Shedding, and Fuel Mix Dataset
+      for Bangladesh (2015-2026)
+    authors:
+      - family-names: Shekh
+        given-names: Md Ibrahim
+      - family-names: Rafi
+        given-names: Rakibul Hasan
+    publisher:
+      name: Mendeley Data
+    version: V1
+    year: 2026
+    doi: 10.17632/vpk8spw2mm.1
+    license: CC-BY-4.0

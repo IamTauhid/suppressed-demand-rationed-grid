@@ -1,0 +1,8 @@
+target price year 2024
+factors: US CPI 2024/2001 = 1.772 ; BGD CPI 2024/2001 = 4.765 ; BGD CPI 2024/1996 = 6.017 ; BGD deflator 2024/1996 = 5.389 ; BGD CPI 2024/2013 = 2.059
+FX BDT/USD 2001 = 55.81 ; 2024 = 115.60
+wj_planned      0.34 US\$/kWh 2001  A=69.6 B=90.4 C=84.8
+wj_unplanned    0.83 US\$/kWh 2001  A=170.0 B=220.7 C=207.1
+mc_low            46 Tk/kWh   1996  A= B=276.8 C=247.9
+mc_high          107 Tk/kWh   1996  A= B=643.8 C=576.6
+adb_wtp         5.78 Tk/kWh   2013  A= B=11.9 C=12.4

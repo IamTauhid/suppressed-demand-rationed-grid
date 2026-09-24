@@ -1,0 +1,10 @@
+$ python timestamp_audit.py
+[exit 0, 1.7s]
+days 2751 | mean err: begin +0.544  end -0.456  spot +0.044
+treatment  bfill_01  equal_weight  ffill_23  interp
+year                                               
+2022          2.161         2.123     2.113   2.137
+2023          3.014         2.945     2.932   2.973
+2024          2.284         2.234     2.242   2.263
+2025          0.370         0.361     0.367   0.369
+

@@ -1,0 +1,10 @@
+torch 2.14.0+cpu, threads 4
+[1/9] 2019 a=0.40 s=0 fixed (64s elapsed)
+[2/9] 2019 a=0.40 s=1 fixed (128s elapsed)
+[3/9] 2019 a=0.40 s=2 fixed (189s elapsed)
+[4/9] 2019 a=0.60 s=0 fixed (253s elapsed)
+[5/9] 2019 a=0.60 s=1 fixed (316s elapsed)
+[6/9] 2019 a=0.60 s=2 fixed (379s elapsed)
+[7/9] 2019 a=1.00 s=0 fixed (440s elapsed)
+[8/9] 2019 a=1.00 s=1 fixed (504s elapsed)
+[9/9] 2019 a=1.00 s=2 fixed (569s elapsed)

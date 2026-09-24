@@ -1,0 +1,17 @@
+$ python build_panel.py
+[exit 0, 3.4s]
+                      quantity      value
+              Raw observations 94934.0000
+              :30-stamped rows  4439.0000
+         Hour-00 records 2016+     0.0000
+      Hours rejected: ceilings   407.0000
+Hours rejected: energy balance   374.0000
+                 Retained days  3928.0000
+            Days with 24 slots  3891.0000
+              Censored share %    27.3900
+                 Censored days  1076.0000
+            Pr(shed) 2022-2024     0.6496
+       Depth mean (S/D | shed)     0.0316
+                      Depth sd     0.0345
+ Uncensored-era days 2016-2021  2148.0000
+

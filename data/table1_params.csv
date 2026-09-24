@@ -1,0 +1,22 @@
+kind,parameter,value,unit,source
+unit_cost,gas,7.09,BDT/kWh,BPDB FY2025 disclosures
+unit_cost,liquid_fuel,27.39,BDT/kWh,BPDB FY2025 disclosures
+unit_cost,coal,13.20,BDT/kWh,BPDB FY2025 disclosures
+unit_cost,hydro,1.20,BDT/kWh,"Kaptai, fully depreciated public asset"
+unit_cost,solar,9.00,BDT/kWh,utility-scale IPP contract band
+unit_cost,wind,9.50,BDT/kWh,utility-scale IPP contract band
+unit_cost,india_bheramara_hvdc,9.34,BDT/kWh,"realised import tariff, non-Adani"
+unit_cost,india_tripura,9.34,BDT/kWh,"realised import tariff, non-Adani"
+unit_cost,india_adani,14.86,BDT/kWh,"realised FY2025 average, Adani PPA"
+unit_cost,nepal,8.35,BDT/kWh,realised FY2025 average
+loss,transmission_loss_lo,0.0285,fraction,PGCB annual reports
+loss,transmission_loss_hi,0.0320,fraction,PGCB annual reports
+loss,transmission_loss_mid,0.03025,fraction,midpoint of range
+loss,distribution_loss_lo,0.070,fraction,BPDB and distribution utility reports
+loss,distribution_loss_hi,0.095,fraction,BPDB and distribution utility reports
+loss,distribution_loss_mid,0.0825,fraction,midpoint of range
+other,tariff_lo,6.10,BDT/kWh,"BERC tariff orders 2016-2026 (range only; yearly series not included)"
+other,tariff_hi,8.95,BDT/kWh,"BERC tariff orders 2016-2026 (range only; yearly series not included)"
+other,fx,122,BDT/USD,period average
+other,voll_scenarios,40/90/180,BDT/kWh,illustrative scenario values
+other,alpha_min,0.30,fraction,assumption

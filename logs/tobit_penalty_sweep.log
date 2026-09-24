@@ -1,0 +1,6 @@
+torch 2.14.0+cpu
+blind bias +0.53 pp; true suppression 1.39 pp
+lambda=0.1: tobit correction +6.19 pp, nll -0.5414
+lambda=1: tobit correction +6.04 pp, nll -0.5350
+lambda=10: tobit correction +5.28 pp, nll -0.4799
+lambda=100: tobit correction +1.20 pp, nll -0.1814

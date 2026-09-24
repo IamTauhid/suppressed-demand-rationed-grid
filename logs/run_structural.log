@@ -1,0 +1,17 @@
+$ python run_structural.py
+[exit 0, 4.3s]
+excess 2022-2024 clean: 395.2 GWh = 6.2% of shedding in those hours
+   spec  year  gap_pp  boot_p05  boot_p95  inside_bound  unserved_TWh  cost_mUSD_voll90
+   none  2022    2.78      0.69      5.06          True          2.44           1797.75
+   none  2023    7.94      5.23     10.90          True          7.32           5402.57
+   none  2024   10.56      7.21     14.18         False         10.32           7616.66
+   none  2025    9.57      5.75     13.65         False         10.00           7375.35
++growth  2022    4.03      1.88      6.42          True          3.54           2609.13
++growth  2023    8.16      5.53     11.01          True          7.53           5552.32
++growth  2024    9.60      6.42     13.02         False          9.39           6925.82
++growth  2025    8.21      4.59     12.20         False          8.57           6322.06
+ +level  2022    2.87      0.95      5.05          True          2.52           1858.11
+ +level  2023    7.31      4.73     10.08          True          6.74           4971.52
+ +level  2024    7.09      3.68     10.61          True          6.93           5112.54
+ +level  2025    2.67     -1.78      7.33         False          2.79           2054.71
+

@@ -1,0 +1,15 @@
+# Dependency versions used for the results in this package
+python          3.11.16 (analysis env) / 3.13 (torch env)
+numpy           2.4.6
+pandas          2.3.3
+scipy           1.17.1
+requests        2.34.2
+reportlab       5.0.1
+torch           2.13.0 (CPU build, conda-forge pytorch)
+OS              Windows-10-10.0.26200-SP0
+TeX             MiKTeX (conda-forge) pdflatex for the review build; elsarticle for submission
+Seeds           recovery grid: torch.manual_seed(seed), numpy default_rng(1000*seed+holdout), seeds 0,1,2
+                bootstrap: numpy default_rng(0)
+Threads         torch.set_num_threads(4)
+
+# 2026-09-23 re-execution of run_recovery.py, tobit_penalty_sweep.py: Python 3.13 (conda env 'texenv'), torch 2.14.0+cpu, numpy 2.4.6, 8 CPU threads.

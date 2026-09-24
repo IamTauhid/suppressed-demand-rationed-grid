@@ -1,0 +1,16 @@
+# Keep binary artefacts byte-exact; never apply line-ending conversion.
+*.pdf   binary
+*.npy   binary
+*.png   binary
+*.jpg   binary
+*.xlsx  binary
+
+# Data and results are read byte-wise by the pipeline; keep LF everywhere.
+*.csv   text eol=lf
+*.json  text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.tex   text eol=lf
+*.log   text eol=lf
+*.txt   text eol=lf
+*.cff   text eol=lf

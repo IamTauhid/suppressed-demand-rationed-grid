@@ -1,0 +1,8 @@
+effective_month,weighted_avg_retail_tariff_bdt_kwh,change,instrument,source
+2015-09,6.42,+2.93% (+Tk0.18),BERC retail tariff order effective 1 Sep 2015,"Dhaka Tribune 23 Nov 2017 (https://archive.dhakatribune.com/bangladesh/power-energy/2017/11/23/229875): 'last raised ... on September 01, 2015, by 2.93% or Tk0.18 per unit on a weighted average'"
+2017-12,6.77,+5.3% (+Tk0.35),BERC retail tariff order effective Dec 2017,"Dhaka Tribune 23 Nov 2017 (Tk0.35, 5.3%); TBS 8 Jan 2023 (https://www.tbsnews.net/bangladesh/energy/berc-recommends-hike-retail-power-tariff-1543-564550): 'increased from Tk6.77 to Tk7.13' in March 2020, fixing the Dec-2017 level at 6.77; BPDB tariff page 'Effect from December 2017'"
+2020-03,7.13,+5.3% (+Tk0.36),BERC retail tariff order effective 1 Mar 2020,"TBS 8 Jan 2023: 'retail power tariff was increased from Tk6.77 to Tk7.13 per unit' with effect from 1 March 2020"
+2023-01,7.49,+5%,Executive order (Energy and Mineral Resources Division) 12 Jan 2023,"TBS 15 Jan 2023 (https://www.tbsnews.net/bangladesh/energy/energy-regulator-postpones-retail-power-tariff-adjustment-processes-568490); BPDB tariff page 'Effect from January 2023'; 7.13 x 1.05"
+2023-02,7.86,+5%,Executive order Feb 2023,"BPDB tariff page 'Effect from February 2023'; 7.49 x 1.05"
+2023-03,8.25,+5%,Executive order Mar 2023,"BPDB tariff page 'Effect from March 2023'; 7.86 x 1.05"
+2024-02,8.95,+8.5%,Executive order 29 Feb 2024,"Financial Express / UNB (June 2026): 'retail tariffs increased by an average of 8.5 per cent' on 29 Feb 2024; BPDB tariff page 'Effect from February 2024'; 8.25 x 1.085 = 8.95, matching the Table 1 upper value"

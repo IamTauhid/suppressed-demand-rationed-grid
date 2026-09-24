@@ -1,0 +1,23 @@
+key,checked_against,status,finding,change_made
+shekh2026,OpenAlex/DataCite DOI 10.17632/vpk8spw2mm.1,verified,"Title, authors (Shekh, Rafi), Mendeley Data 2026 match.",
+hossain2025dib,OpenAlex DOI 10.1016/j.dib.2025.112014,verified,"Data in Brief 62, art. 112014, 2025; authors match.",
+hossain2025md,OpenAlex/DataCite DOI 10.17632/x7r7wdb39k.1,verified,Mendeley Data 2025; authors match.,
+miah2024,OpenAlex DOI 10.1016/j.procs.2024.05.002,verified,"Procedia Comput. Sci. 236, 41-50, 2024; first author Miah, 6 authors (et al. appropriate).",
+islam2025,OpenAlex DOI 10.1007/s42488-025-00140-9,"verified, corrected",J. Data Inf. Manag. 2025; volume/issue/pages were missing.,"added vol. 7, no. 1, pp. 1-19"
+hasan2025,OpenAlex DOI 10.1016/j.nxener.2025.100444,verified,"Next Energy 9, art. 100444, 2025; authors match.",
+yeaser2025,OpenAlex DOI 10.1109/ECAI65401.2025.11095479,verified,"2025 17th Int. Conf. Electronics, Computers and AI (ECAI), pp. 1-7; raw author list Yeaser, Nafs, Md. Ikrama Hossain matches (OpenAlex display-name 'Md Delwar Hossain' is a disambiguation artefact).",
+eca2020,web: eca-uk.com,"verified, corrected","ECA 'Viewpoint', March 2020; document type was 'Tech. Note' and no URL given.",type -> ECA Viewpoint; stable PDF URL added
+heggie,web + OpenAlex DOI 10.1016/j.enpol.2018.06.025,replaced,The cited PhD thesis title/year could not be verified and the text attributed to it a method (state-space demand forecasting) no one had confirmed. The verifiable work by the same author on the same topic is the Energy Policy paper.,"cite Heggie, Eager, McKinnon & van der Weijde, Energy Policy 121 (2018) 202-210; related-work sentence rewritten to what the paper does"
+manski2003,OpenAlex DOI 10.1007/b97478,verified,"Springer Series in Statistics, 2003.",
+manski1990,web: RePEc aea:aecrev:v:80:y:1990:i:2:p:319-23,verified,"AER Papers & Proceedings 80(2), 319-323, May 1990.",
+horowitz1995,OpenAlex DOI 10.2307/2951627,verified,"Econometrica 63(2), 281-302, 1995.",
+tobin1958,OpenAlex DOI 10.2307/1907382,verified,"Econometrica 26(1), 24-36, 1958.",
+amemiya1984,OpenAlex DOI 10.1016/0304-4076(84)90074-5,verified,"J. Econometrics 24(1-2), 3-61, 1984.",
+huttel2022,OpenAlex DOI 10.1109/TITS.2022.3190194,verified,"IEEE T-ITS 23(11), 21753-21765, 2022; authors match.",
+gammelli2020,OpenAlex DOI 10.1016/j.trc.2020.102775,verified,"Transp. Res. C 120, art. 102775, 2020; first author Gammelli, 6 authors.",
+huttel2023,OpenAlex DOI 10.1016/j.trc.2023.104189,verified,"Transp. Res. C 153, art. 104189, 2023; authors match.",
+ieefa2024,web: ieefa.org,"verified, corrected","Report 'Fixing Bangladesh's power sector', 4 Dec 2024, author Shafiqul Alam; author was omitted.",author added
+bpdb2025,web: bpdb.gov.bd annual-report page,existence verified; page ref outstanding,Annual Report 2024-25 listed 09 Oct 2025. The 12.10 BDT/kWh purchase-cost page cannot be verified from here (site intermittently unavailable).,URL pointed at the annual-report listing; year/month added
+pgcb2024,web: press coverage of the report,existence verified; page ref outstanding,"Annual Report 2023-24 partially released 15 Oct 2024; reported transmission loss 3.13% (FY24), 3.07% (FY23), 2.89% (FY22) is consistent with Table 2's 2.85-3.20% range. Company renamed Power Grid Bangladesh PLC.",title simplified; rename noted
+nasapower,used directly (API fetch in this package),verified,NASA POWER daily point API; parameters recorded in RUN.md.,
+adb2013,(removed in round 4),removed,Bibliographic details could not be verified; VOLL values are labelled illustrative and attributed to no source.,

@@ -1,0 +1,14 @@
+quantity,value
+Raw observations,94934.0
+:30-stamped rows,4439.0
+Hour-00 records 2016+,0.0
+Hours rejected: ceilings,407.0
+Hours rejected: energy balance,374.0
+Retained days,3928.0
+Days with 24 slots,3891.0
+Censored share %,27.39
+Censored days,1076.0
+Pr(shed) 2022-2024,0.6496
+Depth mean (S/D | shed),0.0316
+Depth sd,0.0345
+Uncensored-era days 2016-2021,2148.0

@@ -1,0 +1,15 @@
+,value
+raw_rows,94934
+parse_failures,0
+rows_containing_24:00,0
+duplicate_timestamps,0
+half_hour_rows,4439
+other_nonzero_minute_rows,0
+out_of_order_rows,0
+grid_hours,95496
+missing_grid_hours,5001
+missing_grid_hours_excl_hour00,1024
+missing_hour00_2016plus,3720
+gap_runs_excl_hour00,238
+gap_runs_len_le3,182
+longest_gap_hours,23

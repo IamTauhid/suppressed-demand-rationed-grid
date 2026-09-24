@@ -1,0 +1,6 @@
+key,source,quantity,coverage,value,unit,price_year,bdt2024_routeA,bdt2024_routeB,bdt2024_routeC
+wj_planned,Wijayatunga and Jayalath (2008),"Industrial outage cost, planned interruptions","Industrial consumers, survey 2001--2003",0.34,US\$/kWh,2001,69.6,90.4,84.8
+wj_unplanned,Wijayatunga and Jayalath (2008),"Industrial outage cost, unplanned interruptions","Industrial consumers, survey 2001--2003",0.83,US\$/kWh,2001,170.0,220.7,207.1
+mc_low,"Mujeri and Chowdhury (2013), as cited by ADB (2015)","Economic output per unit of additional supply, low",Economy-wide,46.0,Tk/kWh,1996,,276.8,247.9
+mc_high,"Mujeri and Chowdhury (2013), as cited by ADB (2015)","Economic output per unit of additional supply, high",Economy-wide,107.0,Tk/kWh,1996,,643.8,576.6
+adb_wtp,ADB (2013),"Willingness to pay, lower bound set at the tariff","Household, agriculture and commercial consumers, western Bangladesh",5.78,Tk/kWh,2013,,11.9,12.4

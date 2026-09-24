@@ -1,0 +1,3 @@
+$ python make_figure1.py
+[exit 0]
+wrote figs/fig1_censoring.pdf

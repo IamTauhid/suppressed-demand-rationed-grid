@@ -1,0 +1,5 @@
+lambda,tobit_correction_pp,true_supp_pp,blind_bias_pp
+0.1,6.19,1.39,0.53
+1.0,6.04,1.39,0.53
+10.0,5.28,1.39,0.53
+100.0,1.2,1.39,0.53
