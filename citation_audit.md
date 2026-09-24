@@ -1,6 +1,6 @@
-# Citation audit (round 5)
+# Citation audit (rounds 5-6)
 
-Every entry in `main.tex`'s bibliography, checked on 2026-09-23 against OpenAlex (DOI resolution), publisher/RePEc listings, or the issuing organisation's site. CrossRef, arXiv and Semantic Scholar were not reachable from the compile host.
+Every entry in `main.tex`'s bibliography, checked on 2026-09-23 (round 5) and 2026-09-24 (round 6, `fe2025`) against OpenAlex (DOI resolution), publisher/RePEc listings, or the issuing organisation's site. CrossRef, arXiv and Semantic Scholar were not reachable from the compile host.
 
 | Key | Checked against | Status | Finding | Change |
 |---|---|---|---|---|
@@ -25,6 +25,9 @@ Every entry in `main.tex`'s bibliography, checked on 2026-09-23 against OpenAlex
 | `bpdb2025` | web: bpdb.gov.bd annual-report page | **existence verified; page ref outstanding** | Annual Report 2024-25 listed 09 Oct 2025. The 12.10 BDT/kWh purchase-cost page cannot be verified from here (site intermittently unavailable). | URL pointed at the annual-report listing; year/month added |
 | `pgcb2024` | web: press coverage of the report | **existence verified; page ref outstanding** | Annual Report 2023-24 partially released 15 Oct 2024; reported transmission loss 3.13% (FY24), 3.07% (FY23), 2.89% (FY22) is consistent with Table 2's 2.85-3.20% range. Company renamed Power Grid Bangladesh PLC. | title simplified; rename noted |
 | `nasapower` | used directly (API fetch in this package) | **verified** | NASA POWER daily point API; parameters recorded in RUN.md. |  |
+| `fe2025` | web: today.thefinancialexpress.com.bd (fetched 2026-09-24) | **verified** | The Financial Express (Dhaka), 25 Jan 2025, FHM Humayan Kabir. Confirms outstanding dues to independent power producers of nearly Tk 210 billion to September 2024 on Power Division and Ministry of Finance figures. | new entry, round 6 |
 | `adb2013` | (removed in round 4) | **removed** | Bibliographic details could not be verified; VOLL values are labelled illustrative and attributed to no source. |  |
 
 **Summary.** 14 of 14 DOI-bearing entries resolve to records matching title, authors, venue and year. One (`islam2025`) lacked volume/issue/pages, now added. One (`heggie`) cited an unverifiable thesis and described a method for it that no one had confirmed; it is replaced by the author's peer-reviewed Energy Policy paper and the sentence rewritten to what that paper does. Two grey-literature entries gained missing metadata (`eca2020` document type and URL; `ieefa2024` author). The two utility annual reports exist as cited; the specific page references for the 12.10 BDT/kWh purchase cost and the transmission-loss series remain to be added by the authors from the documents themselves.
+
+**Round 6 addendum (2026-09-24).** One entry added, `fe2025`, verified by fetching the article directly. It supports the arrears term in the Section 7.1 reconciliation between the modelled cost-revenue gap and audited subsidy disbursement. The audited subsidy figures themselves are quoted from `ieefa2024`, which attributes them to BPDB annual reports FY2019-20 to FY2022-23 and to the independent auditors' report for the year ended 30 June 2024; those primary documents have not been consulted directly and the page references remain outstanding, as for `bpdb2025` and `pgcb2024`.

@@ -105,3 +105,25 @@ pre-submission revision history. None of these is needed to regenerate any resul
 | Real tariff decline of 13.7% (Section 8.3) | Same tariff series plus BBS CPI | As above; CPI from `data/wdi_bgd.json` (`FP.CPI.TOTL.ZG`). | Arithmetic on the series. |
 
 See `claim_evidence_inventory.md` for a claim-by-claim list.
+
+## Independent re-execution (2026-09-24)
+
+The package was re-run from the raw inputs on a different machine, into an empty
+`results/` directory, and the output compared file by file with the committed set.
+Environment differences: numpy 2.5.2 (pinned 2.4.6), pandas 3.0.5 (pinned 2.3.3),
+torch 2.13.0+cpu (the committed recovery grid used 2.14.0+cpu), 4 threads rather
+than 8.
+
+| Stage | Outcome |
+|---|---|
+| `build_panel.py` | identical: 3,928 retained days, 1,076 censored, 4,439 :30-stamped rows, zero hour-00 records from 2016 |
+| `identity_shares.py` | `identity_shares.csv` byte-identical |
+| `timestamp_audit.py` | `timestamp_audit.csv`, `hour_label_convention_test.csv`, `midnight_treatment_sensitivity.csv` byte-identical |
+| `cost_model.py` | `cost_model.csv` byte-identical |
+| `voll_sources.py` | conversions reproduce |
+| `run_structural.py` | every printed gap, bound and bootstrap limit reproduces; `structural.csv`, `placebo_detail.csv`, `spec_comparison.csv`, `fitted_year_gaps.csv` agree to a maximum relative difference of **4.0e-10** (last-bit float, attributable to the numpy/pandas version change) |
+| `run_recovery.py` | partial at time of writing. Of the first six fits, the `blind` and `tobit` arms reproduce exactly; the two `icg` arms differ by 0.0052 pp and 0.0009 pp in `bias_pp` and in the fourth decimal of `final_nll`. This is the torch 2.13 vs 2.14 difference and is immaterial against the ICG mean absolute calibration error of 0.84 pp, but the arm is not bit-reproducible across torch minor versions and we do not claim that it is. |
+
+Independent verification of the manuscript against these files is in
+`audit_numbers.py`: 56 quantities recomputed from `results/*.csv` and compared with
+the printed values and with `tables/numbers.tex`, all matching.

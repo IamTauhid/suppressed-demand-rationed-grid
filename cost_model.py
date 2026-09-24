@@ -62,4 +62,4 @@ else:
 out.to_csv("results/cost_model.csv", index=False)
 print(out[["year", "hours", "balanced_hours", "unbalanced_pct", "G_GWh", "avg_cost_BDT_kWh", "cost_bn_BDT", "delivered_GWh"]].to_string(index=False))
 c25 = float(out.loc[out.year == 2025, "avg_cost_BDT_kWh"].iloc[0])
-print(f"calibration: 2025 weighted average cost {c25:.2f} BDT/kWh vs published FY2025 purchase cost 12.10 -> deviation {100*(c25/12.10-1):+.1f}% (manuscript states 11.54, -4.6%)")
+print(f"calibration: 2025 weighted average cost {c25:.2f} BDT/kWh vs published FY2025 purchase cost 12.10 -> deviation {100*(c25/12.10-1):+.1f}% (manuscript Section 7.1 states the same)")
