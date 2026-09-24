@@ -43,6 +43,27 @@ consistent with an energy rather than a peak-capacity constraint, which is a sup
 hypothesis rather than an established fact: the record does not report unit
 availability.
 
+## External checks
+
+Two quantities in the paper can be checked against sources outside this pipeline, and
+both checks are reported with their failures.
+
+**The cost model against audited accounts.** The modelled cost–revenue gap
+(`cost_model.py`) is compared with BPDB's audited subsidy disbursement. For FY2023–24
+the model is **5.7% low** ($3,035M modelled against $3,220M disbursed) — a genuine
+external check, since no fiscal quantity enters the estimation anywhere. Over five
+fiscal years it is **not** close: $17.64bn modelled against $10.64bn disbursed. The
+difference is reconciled against BPDB's reported losses ($1.99bn), arrears to
+independent producers (~$1.77bn by September 2024), and a stated residual of $3.25bn
+attributable to the accounting boundaries. Any multi-year monetary total in the paper
+should be read with that in mind.
+
+**The aggregated lower limit against a third party.** IEEFA independently aggregates
+the same BPDB daily archive and obtains >2,244.89 GWh of unserved energy for FY2023–24;
+this pipeline gives 2,194 GWh for calendar 2024 — agreement to **2.3%**. This
+corroborates the arithmetic, *not* the operator's reporting: both figures derive from
+the same source, so a common overstatement would reproduce in both.
+
 ## Layout
 
 ```
@@ -89,8 +110,10 @@ supplied.
   :30, all at 18:30 or 19:30, and are dropped by the hourly reindex rather than
   double-counted. The differential effect on shed versus non-shed days is −0.025 pp of
   daily energy, against an S/G of 2.1–3.0 pp.
-- **No audited subsidy figures.** Every fiscal comparison is against a modelled
-  cost–revenue gap and is labelled as such.
+- **The modelled gap is an economic gap, not a cash transfer.** It now has an external
+  check against audited disbursement (above), but the two are different quantities and
+  agree only in the single overlapping fiscal year. Multi-year monetary totals should
+  be read as modelled economic gaps, not as fiscal transfers.
 - **The operational record contains no monetary variables.** Every cost, tariff and
   welfare figure rests on exogenous published parameters, listed with sources in
   `data/table1_params.csv` and swept in sensitivity analysis.
