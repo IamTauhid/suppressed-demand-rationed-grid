@@ -122,7 +122,7 @@ than 8.
 | `cost_model.py` | `cost_model.csv` byte-identical |
 | `voll_sources.py` | conversions reproduce |
 | `run_structural.py` | every printed gap, bound and bootstrap limit reproduces; `structural.csv`, `placebo_detail.csv`, `spec_comparison.csv`, `fitted_year_gaps.csv` agree to a maximum relative difference of **4.0e-10** (last-bit float, attributable to the numpy/pandas version change) |
-| `run_recovery.py` | partial at time of writing. Of the first six fits, the `blind` and `tobit` arms reproduce exactly; the two `icg` arms differ by 0.0052 pp and 0.0009 pp in `bias_pp` and in the fourth decimal of `final_nll`. This is the torch 2.13 vs 2.14 difference and is immaterial against the ICG mean absolute calibration error of 0.84 pp, but the arm is not bit-reproducible across torch minor versions and we do not claim that it is. |
+| `run_recovery.py` | 62 of 108 fits completed at time of writing. `blind` 21/21 and `tobit` 21/21 bit-identical; `icg` 15/20 bit-identical, remaining five deviating by at most 0.0087 pp in `bias_pp` (mean absolute deviation 0.0011 pp). This is the torch 2.13 vs 2.14 difference, two orders of magnitude below the ICG mean absolute calibration error of 0.84 pp. The interval arm is not bit-reproducible across torch minor versions and we do not claim that it is; the likely cause is reduction order in the multi-threaded tail evaluations it uses and the other two arms do not. |
 
 Independent verification of the manuscript against these files is in
 `audit_numbers.py`: 56 quantities recomputed from `results/*.csv` and compared with
