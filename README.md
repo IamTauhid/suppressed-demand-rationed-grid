@@ -2,7 +2,7 @@
 
 Replication package for *Suppressed Electricity Demand in a Rationed Grid: A Reporting
 Audit and Conditional Bounds. Evidence from Bangladesh* — the Bangladesh national grid,
-2015–2026. Manuscript under review at *Utilities Policy*.
+2015–2026.
 
 Every table body and in-text figure in the paper is regenerated from the raw inputs by
 the command sequence in [`RUN.md`](RUN.md). The manuscript source is not included here;
