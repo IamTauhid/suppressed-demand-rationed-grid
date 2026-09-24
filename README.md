@@ -59,10 +59,12 @@ attributable to the accounting boundaries. Any multi-year monetary total in the 
 should be read with that in mind.
 
 **The aggregated lower limit against a third party.** IEEFA independently aggregates
-the same BPDB daily archive and obtains >2,244.89 GWh of unserved energy for FY2023–24;
-this pipeline gives 2,194 GWh for calendar 2024 — agreement to **2.3%**. This
-corroborates the arithmetic, *not* the operator's reporting: both figures derive from
-the same source, so a common overstatement would reproduce in both.
+the same BPDB daily archive and obtains >2,244.89 GWh of unserved energy for FY2023–24.
+This pipeline gives 2,616 GWh for calendar 2023 and 2,112 GWh for calendar 2024; since
+FY2023–24 spans half of each, the comparable midpoint is 2,364 GWh — **5.3% above** the
+third-party figure. This corroborates the arithmetic, *not* the operator's reporting:
+both figures derive from the same source, so a common overstatement would reproduce in
+both.
 
 ## Layout
 
